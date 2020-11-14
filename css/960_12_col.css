@@ -17,7 +17,9 @@ body{
 #feature,
 .article,
 #footer{
+    /* adds opacity without filter */
     background-color: #f1f8f4;
+    /* --------------------------- */
     opacity: 50%;
     margin-top: 3%;
     padding: 3% 0 2% 0;
