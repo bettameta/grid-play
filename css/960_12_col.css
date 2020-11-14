@@ -33,18 +33,22 @@ body{
     height: 10%;
 }
 
+ul{
+    
+}
+
 /* LI AFFECTS SPACING AND PRESENTATION */
 li{
     display: inline;
     padding: 6%;
 }
 
-/* LI A AFFECTS TEXT SPECIFICALLY */
+/* a / li a AFFECTS TEXT SPECIFICALLY */
 li a{
     text-decoration: none;
     text-transform: lowercase;
     font-size: .8em;
-    color: #040a7a
+    color: #040a7a;
 }
 
 .footer p{
