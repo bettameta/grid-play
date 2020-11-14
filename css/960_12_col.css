@@ -1,0 +1,41 @@
+/* MAIN CSS */
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #4b3e32;
+    text-align: center;
+    font-size: 16px;
+    background-image: url(/img/brand-freeway.jpg);
+}
+
+#header h1{
+    font-weight: bolder;
+    font-size: 3em;
+    font-family: 'Open Sans';
+}
+
+#nav, 
+#feature,
+.article,
+#footer{
+    background-color: #efefef;
+    opacity: 50%;
+    margin-top: 3%;
+    padding: 3% 0 2% 0;
+    font-size: 1.5em;
+}
+
+#feature,
+.article{
+    height: 10%;
+}
+
+li{
+    display: inline;
+    padding: 6%;
+}
+
+li a{
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: .6em;
+}
