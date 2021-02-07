@@ -4,7 +4,8 @@ body{
     color: #f90606;
     text-align: center;
     font-size: 16px;
-    background-image: url(/img/brand-freeway.jpg);
+    background: url(/img/brand-freeway.jpg) no-repeat center;
+    background-size: cover;
 }
 
 #header h1{
@@ -19,9 +20,9 @@ body{
 #footer{
     /* adds opacity without filter */
     background-color: #f1f8f4;
+    opacity: 55%;
     /* --------------------------- */
-    opacity: 50%;
-    margin-top: 3%;
+    margin-top: 10%;
     padding: 3% 0 2% 0;
     font-size: 1.8em;
     font-weight: bold;
@@ -40,7 +41,7 @@ ul{
 /* LI AFFECTS SPACING AND PRESENTATION */
 li{
     display: inline;
-    padding: 6%;
+    padding: 3%;
 }
 
 /* a / li a AFFECTS TEXT SPECIFICALLY */
